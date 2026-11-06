@@ -24,10 +24,10 @@
     "url": "https://github.com/trantancuong/dsh-code-quality-assistant.git"
   },
   "peerDependencies": {
-    "@deepseek-ai/dsh-tools": "0.2.2-rc.1"
+    "@deepseek-ai/dsh-tools": "^0.2.2-alpha.2"
   },
   "devDependencies": {
-    "@deepseek-ai/dsh-tools": "0.2.2-rc.1"
+    "@deepseek-ai/dsh-tools": "^0.2.2-alpha.2"
   },
   "dsh": {
     "bundle": {
