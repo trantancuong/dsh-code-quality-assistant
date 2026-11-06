@@ -1,0 +1,3 @@
+- insert:
+    - id: code-quality-assistant
+      name: dsh-code-quality-assistant
