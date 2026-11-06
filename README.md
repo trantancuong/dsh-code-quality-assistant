@@ -20,10 +20,7 @@ read or modify project files by itself.
 
 ## Compatibility
 
-The package is authored against the public DeepSeek Harness plugin/tool API and
-`@deepseek-ai/dsh-tools` version `0.2.2-rc.1`. Check your installed Harness version
-before installing. If your DSH release uses another version, align the peer and
-development dependency versions with that release.
+The package is authored against the public DeepSeek Harness plugin/tool API and declares `@deepseek-ai/dsh-tools` compatibility as `^0.2.2-alpha.2` (covering the 0.2.2 prerelease line, including DSH 0.2.2-alpha.2). This is a compatibility declaration; runtime behavior still needs to be tested against the exact DSH build installed on your machine.
 
 ## Install from GitHub
 
