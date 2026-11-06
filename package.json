@@ -1,0 +1,37 @@
+{
+  "name": "dsh-code-quality-assistant",
+  "version": "0.1.0",
+  "description": "A lightweight heuristic code-quality and security review tool for DeepSeek Harness.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./analyzer": "./analyzer.js"
+  },
+  "files": [
+    "index.js",
+    "analyzer.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trantancuong/dsh-code-quality-assistant.git"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": "0.2.2-rc.1"
+  },
+  "devDependencies": {
+    "@deepseek-ai/dsh-tools": "0.2.2-rc.1"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
